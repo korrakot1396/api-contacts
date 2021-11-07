@@ -1,112 +1,58 @@
 {
-  "users": [
+  "contacts": [
     {
-      "sub": "google-oauth2|104692490782884191605",
-      "given_name": "Steve",
-      "family_name": "Brownlee",
-      "nickname": "chortlehoort",
-      "name": "Steve Brownlee",
-      "picture": "https://lh6.googleusercontent.com/-Fu2HawFGmbI/AAAAAAAAAAI/AAAAAAAAXTM/NF_Cn-nBAjE/photo.jpg",
-      "gender": "male",
-      "locale": "en",
-      "updated_at": "2018-06-08T20:48:41.645Z",
-      "id": 8
+      "id": "37a3c133-12ef-4ff3-8dbe-ef11eb302b27",
+      "name": "Num Dosan",
+      "email": "nam.dosan@samsantech.com",
+      "image": "https://i.pinimg.com/564x/af/1f/e9/af1fe9b5cdd9418cd841ab72f9c2245d.jpg",
+      "detail": "Dosan is a software developer for samsantech.",
+      "contact": "0987654321",
+      "job": "Software Engineer"
     },
     {
-      "sub": "google-oauth2|104692490782884191618",
-      "given_name": "Joe",
-      "family_name": "Shepherd",
-      "nickname": "joeshep",
-      "name": "Joe Shepherd",
-      "picture": "https://lh3.googleusercontent.com/Ye08EmtGKL7442gCcpXYmYUmAJTsX2twfDKk9CIVOYMPVthfVwK78rnODRIwCp2cW1p0V2ZkR4Uecw=s577-rw-no",
-      "gender": "male",
-      "locale": "en",
-      "updated_at": "2018-06-08T20:48:41.645Z",
-      "id": 9
+      "id": "408a1fb7-ad5b-4500-a39a-1ca71d841c5e",
+      "name": "So Dalmi",
+      "email": "so.dalmi@samsantech.com",
+      "image": "https://i.pinimg.com/564x/42/d9/8b/42d98b9c4904a05b8b5b46d779931643.jpg",
+      "detail": "Dalmi is the executive of my company.",
+      "contact": "0987654321",
+      "job": "CEO"
     },
     {
-      "sub": "google-oauth2|104692490782884191606",
-      "given_name": "Meg",
-      "family_name": "Ducharme",
-      "nickname": "megducharme",
-      "name": "Meg Ducharme",
-      "picture": "https://lh3.googleusercontent.com/esf4fDZ8gg6TlzO3Qbh8pQgPdqu76yiZVO40KvNrJLWuHLq2JKDiP_vvXxY6E_QXYnzIWQXiL0_RAw=w1171-h1168-rw-no",
-      "gender": "female",
-      "locale": "en",
-      "updated_at": "2018-06-08T20:48:41.645Z",
-      "id": 1
+      "id": "0de25fc4-4cc3-4da1-a6b5-e817e7b366f0",
+      "name": "Lee Cheolsan",
+      "email": "lee.cheolsan@samsantech.com",
+      "image": "https://images.workpointnews.com/workpointnews/2020/10/27173825/1603795101_92767_Start-up_14.jpg",
+      "detail": "Lee Cheolsan is a software developer for samsantech.",
+      "contact": "0988767876",
+      "job": "Frontend Developer"
     },
     {
-      "sub": "google-oauth2|114447427911375071246",
-      "given_name": "Steve",
-      "family_name": "Brownlee",
-      "nickname": "steve",
-      "name": "Steve Brownlee",
-      "picture": "https://lh5.googleusercontent.com/-xKN_6LITeoU/AAAAAAAAAAI/AAAAAAAAA7s/0t53_QkYxDY/photo.jpg",
-      "locale": "en",
-      "updated_at": "2018-06-08T23:54:55.616Z",
-      "id": 10
-    }
-  ],
-  "friends": [
-    {
-      "requestingFriendId": 1,
-      "acceptedFriendId": 8,
-      "pending": true,
-      "id": 1
+      "id": "6b24c2dd-d60f-4059-b0f8-b27d752771fa",
+      "name": "Kim Yongsan",
+      "email": "kim.yongsan@samsantech.com",
+      "image": "https://artisan.co.th/wp-content/uploads/2020/12/123146552_673273216915086_7916283143421506944_n-2048x1365.jpg",
+      "detail": "Kim Yongsan is a software developer for samsantech.",
+      "contact": "0987654321",
+      "job": "Backend Developer"
     },
     {
-      "requestingFriendId": 8,
-      "acceptedFriendId": 9,
-      "pending": false,
-      "id": 2
+      "id": "3cb6a405-e838-405e-805b-02c9f25eb58c",
+      "name": "Won In Jae",
+      "email": "won.injae@samsantech.com",
+      "image": "https://0.soompi.io/wp-content/uploads/2020/10/15095658/Kang-Han-Na2.jpeg",
+      "detail": "Won In Jae is Marketing Manager for samsantech.",
+      "contact": "989887653",
+      "job": "Marketing Manager"
     },
     {
-      "requestingFriendId": 8,
-      "acceptedFriendId": 1,
-      "pending": false,
-      "id": 3
-    },
-    {
-      "requestingFriendId": 10,
-      "acceptedFriendId": 8,
-      "pending": true,
-      "id": 4
-    }
-  ],
-  "posts": [
-    {
-      "message": "Hi this is Steve",
-      "userId": 8,
-      "id": 1
-    },
-    {
-      "message": "I logged in via Google",
-      "userId": 8,
-      "id": 2
-    }
-  ],
-  "events": [],
-  "ads": [
-    {
-      "id": 1,
-      "message": "Fugit deserunt eum molestiae et consequuntur",
-      "company": "Zboncak - Kerluke"
-    },
-    {
-      "id": 2,
-      "message": "Et culpa consequatur facere omnis modi quod ipsum.",
-      "company": "Roberts, Moen and Moore"
-    },
-    {
-      "id": 3,
-      "message": "Saepe necessitatibus dolor laborum.",
-      "company": "Barton and Sons"
-    },
-    {
-      "id": 4,
-      "message": "Sint consectetur animi ut eveniet. Velit et voluptatem et neque ut velit ut accusamus.",
-      "company": "Hartmann - Graham"
+      "id": "308bd4b5-d8d6-416c-ac57-9bb7b4742d01",
+      "name": "Jung Sa Ha",
+      "email": "jung.saha@samsantech.com",
+      "image": "https://thematter.co/wp-content/uploads/2020/12/5EE8B7F3-AC6C-4A20-A423-F624815B8526.jpeg",
+      "detail": "Jung Sa Ha is UX/UI Designer for samsantech.",
+      "contact": "0909876864",
+      "job": "UX/UI Designer"
     }
   ]
 }
